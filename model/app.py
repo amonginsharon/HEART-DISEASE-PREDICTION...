@@ -68,7 +68,7 @@ def set_page_style():
 
 def load_model():
     # Load the pre-trained model
-    with open("models/model_pickle.pkl", "rb") as file:
+    with open("model/model_pickle.pkl", "rb") as file:
         model = pickle.load(file)
     return model
 
