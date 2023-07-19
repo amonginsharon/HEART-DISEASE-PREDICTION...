@@ -72,6 +72,7 @@ def load_model():
         model = pickle.load(file)
     return model
 
+
 def predict(model, data):
     # Perform prediction using the loaded model
     result = model.predict(data)
